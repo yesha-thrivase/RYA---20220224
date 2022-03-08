@@ -12,7 +12,7 @@ $(function () {
 	},{
 		name: 'RYA_UnmetNeeds1', //2 ID of the slide as written in parameters.xml
 		studyDesign: null, // null if there is no study design assigned to this page, the index of the page to link to if there is a study design
-		references: 1, // null if there is no reference page assigned to this page, the index of the page to link to if there is a reference page
+		references: 5, // null if there is no reference page assigned to this page, the index of the page to link to if there is a reference page
 		backTo:0
 	},{
 		name: 'RYA_UAD', //3 ID of the slide as written in parameters.xml
@@ -24,6 +24,11 @@ $(function () {
 		studyDesign: null, // null if there is no study design assigned to this page, the index of the page to link to if there is a study design
 		references: null, // null if there is no reference page assigned to this page, the index of the page to link to if there is a reference page
 		backTo:'previous'
+	},{
+		name: 'RYA_UnmetNeeds1_ref', //5 ID of the slide as written in parameters.xml
+		studyDesign: null, // null if there is no study design assigned to this page, the index of the page to link to if there is a study design
+		references: null, // null if there is no reference page assigned to this page, the index of the page to link to if there is a reference page
+		backTo:2
 	}
 
 ];

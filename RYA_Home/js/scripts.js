@@ -7,7 +7,7 @@ $(function () {
 		name: 'RYA_Home_Ref', // ID of the slide as written in parameters.xml
 		studyDesign: null, // null if there is no study design assigned to this page, the index of the page to link to if there is a study design
 		references: null, // null if there is no reference page assigned to this page, the index of the page to link to if there is a reference page
-		backTo:'previous',
+		backTo:0,
 	}];
 
 	$("#center-info-circle").on('click', function(){
@@ -19,6 +19,9 @@ $(function () {
 	let dosingResponsibleSource;
 	let parentSource;
 
+	function slideTo(index) {
+		swiper.slideTo(index,0,false);
+	}
 
 	const swiper = new Swiper('.swiper-container', { //Swiper Initialisation
 		on: {
@@ -156,7 +159,6 @@ $(function () {
 		<div class="pi" onclick="window.parent.navigateToSequence('RYA_PI')" data-prevent-tap="true" style="width:7.3%"></div>
 		<div class="study-design" data-prevent-tap="true" style="width:6.4%"></div>
 		<div class="faq" onclick="window.parent.navigateToSequence('RYA_FAQ')" data-prevent-tap="true" style="width:7.8%"></div>
-		
 		<div class="references"  data-prevent-tap="true" style="width:8.4%"></div>
 		`);
 	}

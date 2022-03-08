@@ -40,6 +40,15 @@ body{margin:0}
 	width: 12%;
 	z-index: 100;
 }
+
+
+.bottom-menu{
+	position: absolute;
+	width: 100%;
+	bottom: 0%;
+	height: 8.6%;
+}
+
 .white-box{
 	position: absolute;
     width: 16%;
@@ -48,13 +57,6 @@ body{margin:0}
     background: white;
     left: 12%;
 	z-index: 1000;
-}
-
-.bottom-menu{
-	position: absolute;
-	width: 100%;
-	bottom: 0%;
-	height: 8.6%;
 }
 .top-menu{
 	position: absolute;

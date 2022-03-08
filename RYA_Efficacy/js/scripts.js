@@ -185,7 +185,13 @@ $(function () {
 		shortSwipes: false, /* Disables swipes that don't swipe a page past the half way point to go to the next page */
 		longSwipesMS: 100, /* Minimum time in milliseconds for a swipe to last for it to be able to swipe to another page */
 		longSwipesRatio: 0.1, /* Fraction of screen that needs to be swiped in order for it to go to the next page */
+	
 	});
+	if(sessionStorage.getItem('slideTo')){
+		summary1 = sessionStorage.getItem("slideTo");
+	   slideTo(summary1);
+	   sessionStorage.removeItem("slideTo");
+}
 
 	function initialise() {
 		let slideIndex = swiper.activeIndex;
@@ -204,6 +210,8 @@ $(function () {
 				swiper.slideTo(slide.references,0,false);
 			});
 		}
+
+		
 
 	}
 	

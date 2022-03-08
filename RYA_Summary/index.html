@@ -18,6 +18,10 @@
               <!-- Background Image -->
               <div class="bg-img"><img data-src="media/images/RYA_Summary.jpg" class="swiper-lazy"></div>
               <!--<div class="swiper-lazy-preloader"></div>-->
+              <div class="summary1" style="position: absolute; top: 36.5%; left: 9.5%; z-index: 1000; width: 40%; height:18%;"></div>
+              <div class="summary2" style="position: absolute; top: 36.5%; left: 50.5%; z-index: 1000; width: 40%; height:18%;"></div>  
+              <div class="summary3" style="position: absolute; top: 56.5%; left: 9.5%; z-index: 1000; width: 40%; height:18%;"></div>  
+              <div class="summary4" style="position: absolute; top: 56.5%; left: 50.5%; z-index: 1000; width: 40%; height:18%;"></div>  
               <div class = "white-box"></div> 
               <div class="bottom-menu"></div>
           </div>  
@@ -37,7 +41,29 @@
 <script src="js/cash.min.js"></script>
 <script src="js/swiper-bundle.min.js"></script>
 <!-- <script src="js/swiper.min.js.map"></script> -->
+<script>
+$( document ).ready(function() {
+  $('.summary1').on('click',function(){
+    sessionStorage.setItem("slideTo", "16");
+    window.parent.navigateToSequence('RYA_Efficacy')
+  })
 
+  $('.summary2').on('click',function(){
+    sessionStorage.setItem("slideTo", "19");
+    window.parent.navigateToSequence('RYA_Efficacy')
+  })
+
+  $('.summary3').on('click',function(){
+    sessionStorage.setItem("slideTo", "9");
+    window.parent.navigateToSequence('RYA_Efficacy')
+  })
+
+  $('.summary4').on('click',function(){
+    sessionStorage.setItem("slideTo", "12");
+    window.parent.navigateToSequence('RYA_Efficacy')
+  })
+});
+</script>
 <script src="js/mandatory.js"></script>
 <script src="js/scripts.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>

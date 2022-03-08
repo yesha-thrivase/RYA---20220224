@@ -143,7 +143,7 @@ $(function () {
         }
     }
 	function createBottomMenu() {
-		// Acarizax Section
+		// RYA Section
 		$('.bottom-menu').html(`
 		<div class="flex flex-row h-full">
 		<div class="sequence" data-prevent-tap="false" style="width:8.7%"></div>

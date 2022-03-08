@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <Presentation name="Ryaltris Specialist H1 2022" duration="5" xmlns="urn:index-schema">
   <Sequences>
-    0<Sequence name="RYA_Home" path="sequence\RYA_Home_20220228.zip"/>
-    0<Sequence name="RYA_Unmet_Needs" path="sequence\RYA_Unmet_Needs_20220228.zip"/>
-    <Sequence name="RYA_Indications" path="sequence\RYA_Indications_20220228.zip"/>
-    0<Sequence name="RYA_Efficacy" path="sequence\RYA_Efficacy_20220228.zip"/>
-    0<Sequence name="RYA_QOL" path="sequence\RYA_QOL_20220228.zip"/>
-    0<Sequence name="RYA_Safety" path="sequence\RYA_Safety_20220228.zip"/>
-    0<Sequence name="RYA_Dosing" path="sequence\RYA_Dosing_20220228.zip"/>
-    0<Sequence name="RYA_Summary" path="sequence\RYA_Summary_20220228.zip"/>
-    0<Sequence name="RYA_PI" path="sequence\RYA_PI_20220228.zip"/>
-    0<Sequence name="RYA_FAQ" path="sequence\RYA_FAQ_20220228.zip"/>
+    <Sequence name="RYA_Home" path="sequence\RYA_Home_20220308.zip"/>
+    <Sequence name="RYA_Unmet_Needs" path="sequence\RYA_Unmet_Needs_20220308.zip"/>
+    <Sequence name="RYA_Indications" path="sequence\RYA_Indications_20220308.zip"/>
+    <Sequence name="RYA_Efficacy" path="sequence\RYA_Efficacy_20220308.zip"/>
+    <Sequence name="RYA_QOL" path="sequence\RYA_QOL_20220308.zip"/>
+    <Sequence name="RYA_Safety" path="sequence\RYA_Safety_20220308.zip"/>
+    <Sequence name="RYA_Dosing" path="sequence\RYA_Dosing_20220308.zip"/>
+    <Sequence name="RYA_Summary" path="sequence\RYA_Summary_20220308.zip"/>
+    <Sequence name="RYA_PI" path="sequence\RYA_PI_20220308.zip"/>
+    <Sequence name="RYA_FAQ" path="sequence\RYA_FAQ_20220308.zip"/>
   </Sequences>
-  <Keywords>Allergy;Acarizax;Ryaltris;Grazax;2022;</Keywords>
+  <Keywords>Ryaltris;2022;</Keywords>
 </Presentation>
