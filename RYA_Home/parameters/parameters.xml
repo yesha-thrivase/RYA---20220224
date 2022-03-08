@@ -2,19 +2,7 @@
 <Sequence Id="RYA_Home" xmlns="urn:param-schema">
   <Links>
     <!-- List all sequences in this ipad detail here, including the current sequence id -->
-    <Link SequenceId="ACA_Acarizax"/>
-    <Link SequenceId="ACA_Pathway"/>
-    <Link SequenceId="ACA_PI"/>
-    <Link SequenceId="ACA_Prescribing"/>
-    <Link SequenceId="ACA_Summary"/>
-    <Link SequenceId="Allergy_AIT"/>
-    <Link SequenceId="Allergy_Goals"/>
-    <Link SequenceId="Allergy_Guidelines"/>
-    <Link SequenceId="ALlergy_Home"/>
-    <Link SequenceId="GRA_GPA"/>
-    <Link SequenceId="GRA_Grazax"/>
-    <Link SequenceId="GRA_PI"/>
-    <Link SequenceId="GRA_Summary"/> 
+    
     <Link SequenceId="RYA_Dosing"/>
     <Link SequenceId="RYA_Efficacy"/>
     <Link SequenceId="RYA_FAQ"/>
